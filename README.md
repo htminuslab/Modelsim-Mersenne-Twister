@@ -40,7 +40,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
 ## Build FLI DLL
-To build the FLI DLL and run the simulation open a CMD prompt and execute either **run_cl.bat** for Visual Studio or **run_gcc.bat** for gcc. This should produce **fli_mt.dll** and the give the following Modelsim output:
+To build the FLI DLL and run the simulation open a CMD prompt and execute either **run_cl.bat** for Visual Studio or **run_gcc.bat** for gcc. This should produce **fli_mt.dll** and then gives the following Modelsim output:
 
 ```
 E:\Modelsim-Mersenne-Twister>cl -c /Zi -I D:\Products\modelsim_de_2022\include src/fli_mt.c
